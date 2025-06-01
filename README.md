@@ -1,12 +1,24 @@
-# React + Vite
+# TinyHouse – Full Stack Uygulama
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu repoda iki klasör yer alır:
+- `tinyhouse-backend`: Python tabanlı API ve veritabanı bağlantısı içerir
+- `tinyhouse-frontend`: React + Vite ile geliştirilmiş kullanıcı arayüzü
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Frontend (Vite + React)
 
-## Expanding the ESLint configuration
+Bu klasör, kullanıcı arayüzü ve rezervasyon ekranlarını içerir.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Vite Eklentileri:
+- [`@vitejs/plugin-react`](https://github.com/vitejs/vite-plugin-react)
+- [`@vitejs/plugin-react-swc`](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc)
+
+### ESLint Yapılandırması:
+- [TypeScript ESLint](https://typescript-eslint.io)
+
+---
+
+## Backend (Flask/Python)
+
+REST API, veritabanı işlemleri ve temel iş mantığını içerir.
